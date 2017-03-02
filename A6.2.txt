@@ -1,0 +1,55 @@
+1. Why MapReduce program is needed in Pig Programming?
+
+      - In Pig programming mapreduce is used gor improving optimization opportunities,extensibility and ease of programming.
+      - MapReduce is needed for using cross products,joins,distributed cahe.
+      - Hadoop developers require MapRedure for driver program control.
+      - It is required for testing large data sets.
+
+2.What are advantages of Pig over MapReduce?
+
+      - It is non-declarative
+      - Less development time.
+      - Easy learning curve than mapreduce.
+      - Effective for large datasets.
+      - It is procedural so we can control every step.
+
+3.What is Pig engine and what is its importance?
+
+      - Pig engine converts pig latin scripts to MapRdeuce jobs.
+      - It acts like an interpreter between Pig Latin Script and Map reduce jobs
+      - It performs parallely.
+      - It is one of the compenent of Pig.
+
+4.What are the modes of Pig execution?
+
+    There are two nodes in Pig execution.They are,
+                    * Local Mode
+                    * MapReduce Mode
+      - In Local mode,we use single machine for running pig.All files are stored and runned in local file system.
+      - In MapReduce mode,we use hadoop cluster for running pig.Here we perform some operations on files which are located in HDFS.
+
+5.What is Grunt shell in pig?
+
+    - It is used for writting Pig Latin Scripts.
+    - They are used for running pig in the shell.
+    - DFS commands and pig commands are supported by grunt shell.
+    - It is used as  an interactive shell and batch mode.
+
+6.What are the features of  Pig Latin Language?
+
+    - It is extensible and case sensitive.
+    - It allows user to work in many ways.
+    - It allows user to retrieve the results.
+    - It includes operators that allowaa user to debug the pig latin statements.
+
+7.Is Pig Latin commands case sensitive?
+
+    - The name and fields of pig latin functions are case sensitive. 
+    - The parameters and all other pig latin keywords of the names are case sensitive.
+
+8.What is data flow language?
+
+    - Data flow language is a contro flow language.A stream of data passes from instruction to instruction to be processed.
+    - It implements dataflow principles and architecture.
+    - It models a program as a directed graph of the data.
+      
